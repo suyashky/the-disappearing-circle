@@ -3,20 +3,26 @@
     padding: 0px;
 }
 
-
 html{
     color: white;
     background-image: linear-gradient(to top, #0d0a0a, #1b0a10, #210b1b, #210f29, #13153b);
     background-attachment:fixed;
     font-family: 'Julius Sans One', sans-serif; 
 }
-
+/*-----------   GAME TITLE TEXT   ------------*/
+#main-text{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+}
 #heading{
     font-size: 33px;
     text-align: center;
     letter-spacing: 2px;
 }
-#howtoplay{
+/*-----------   HOW TO PLAY-BUTTON   ------------*/
+.button{
     color: black;
     font-size: 18px;
     width: 150px;
@@ -28,83 +34,51 @@ html{
     text-align: center;
     margin-top: 14px; 
 }
+#howtoplay{
+    background-color: #ffffff;
+}
 #howtoplay:hover{
-    color: black;
-    font-size: 18px;
-    width: 150px;
     background-color: #e3e3e3;
-    position: relative;
-    left: 310px;
-    padding: 10px 7px;
-    border-radius: 20px;
-    text-align: center;
 }
 
-#main-text{
-    width: 800px;
-    margin: 0 auto;
-    position: relative;
-    top: 150px;
-}
+/*-----------   MAIN-DIV CONTAINING CIRCLES   ------------*/
 #main{
     width: 490px;
     margin: 0 auto;
     position: relative;
     top: 200px;
 }
-
-#circle-1{
+/*-----------   CIRCLES   ------------*/
+.circle{
     width: 130px;
     height: 130px;
-    background-color: #4894a2;
     border-radius: 200px;
     float: left;
+}
+#circle-1{  
+    background-color: #4894a2;
     margin-right: 50px;
-
 }
 #circle-2{
-    width: 130px;
-    height: 130px;
     background-color: #8f5fb2;
-    border-radius: 200px;
-    float: left;
     margin-right: 50px;
-
 }
 #circle-3{
-    width: 130px;
-    height: 130px;
     background-color: #9d4226;
-    border-radius: 200px;
-    float: left;
 }
+#circle-4{
+    background-color: #e3673a;
+    margin-right: 50px;
+}
+#circle-5{
+    background-color: #868662;;
+    margin-right: 50px;
+}
+#circle-6{
+    background-color: #2e9559;
+}
+/*------  Float clear  ---------*/
 .clear{
     clear: both;
     height: 30px;
-}
-#circle-4{
-    width: 130px;
-    height: 130px;
-    background-color: #e3673a;
-    border-radius: 200px;
-    float: left;
-    margin-right: 50px;
-
-}
-
-#circle-5{
-    width: 130px;
-    height: 130px;
-    background-color: #868662;
-    border-radius: 200px;
-    float: left;
-    margin-right: 50px;
-
-}
-#circle-6{
-    width: 130px;
-    height: 130px;
-    background-color: #2e9559;
-    border-radius: 200px;
-    float: left;
 }
